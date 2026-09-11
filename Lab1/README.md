@@ -25,6 +25,9 @@ Lab 1 introduces the core building blocks of Python: syntax, input/output, data 
 | 06 | [`06_data_types.py`](06_data_types.py) | Numbers, Booleans, Strings, type casting |
 | 07 | [`07_lists.py`](07_lists.py) | Lists: creation, indexing, slicing |
 | 08 | [`08_conditionals.py`](08_conditionals.py) | Comparison operators & if/elif/else |
+| 09 | [`09_linear_search.py`](09_linear_search.py) | Linear search in a list |
+| 10 | [`10_find_in_two_arrays.py`](10_find_in_two_arrays.py) | Find a value in two arrays |
+| 11 | [`11_common_in_two_arrays.py`](11_common_in_two_arrays.py) | Common values in two arrays |
 
 ---
 
@@ -179,6 +182,64 @@ Covers all comparison operators and control flow with `if`/`elif`/`else`.
 - Logical operators: `and`, `or`, `not`
 - Ternary (conditional) expressions
 - Practical examples: calculator, leap year checker
+
+---
+
+### 09_linear_search.py — Linear Search
+
+Searches a list for a value by checking each element in order.
+
+**Concepts demonstrated:**
+- A single `linear_search(items, target)` function using a `for` loop with `range()`
+- Returning the index when found, or `-1` when the value is not present
+- Using the returned value in an `if` statement
+
+**Example output:**
+```
+List: [10, 23, 45, 70, 11, 15, 20]
+45 found at index 2
+99 not found
+```
+
+---
+
+### 10_find_in_two_arrays.py — Find a Value in Two Arrays
+
+Searches one value across two arrays and reports where it was found.
+
+**Concepts demonstrated:**
+- One `find_in_two_arrays(first, second, target)` function
+- Two linear scans (one per array) combined with `if`/`elif`/`else` into
+  four possible answers: in both, only the first, only the second, or neither
+
+**Example output:**
+```
+Array A: [3, 7, 12, 25, 42]
+Array B: [8, 12, 25, 50, 77]
+
+25 found in both arrays (index 3 and 2)
+3 found only in the first array at index 0
+8 found only in the second array at index 0
+99 not found in either array
+```
+
+---
+
+### 11_common_in_two_arrays.py — Common Values in Two Arrays
+
+Finds the values that appear in both arrays.
+
+**Concepts demonstrated:**
+- One `common_elements(first, second)` function
+- The `in` operator to test membership
+- Building a result list with `append()`, avoiding duplicates with `not in`
+
+**Example output:**
+```
+Array A: [1, 2, 3, 4, 5]
+Array B: [4, 5, 6, 7, 8]
+Common elements: [4, 5]
+```
 
 ---
 

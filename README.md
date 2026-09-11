@@ -31,12 +31,7 @@ Artificial-Class-Lab/
 │   ├── 07_lists.py
 │   └── 08_conditionals.py
 │
-├── Lab2/                    ← Lab 2: Search Algorithms
-│   ├── README.md            ← Explanatory guide
-│   ├── 01_linear_search.py
-│   ├── 02_find_in_two_arrays.py
-│   └── 03_common_in_two_arrays.py
-│
+├── Lab2/                    ← Lab 2: (pending)   [coming soon]
 ├── Lab3/                    ← Lab 3: (pending)   [coming soon]
 ├── Lab4/                    ← Lab 4: (pending)   [coming soon]
 │
@@ -57,7 +52,7 @@ Artificial-Class-Lab/
 | Lab | Topics | Explanation | Manual | Scripts | Status |
 |-----|--------|-------------|--------|---------|--------|
 | **Lab 1** | Python syntax, input/output, data types, strings, lists, conditionals | [Read](Lab1/README.md) | [View](Lab1/manual.md) | [Run](Lab1/README.md#how-to-run) | Complete |
-| **Lab 2** | Search algorithms: linear search, find in two arrays, common elements | [Read](Lab2/README.md) | — | [Run](Lab2/README.md#how-to-run) | Complete |
+| **Lab 2** | *To be assigned* | — | — | — | Pending |
 | **Lab 3** | *To be assigned* | — | — | — | Pending |
 | **Lab 4** | *To be assigned* | — | — | — | Pending |
 
@@ -81,10 +76,6 @@ cd Lab1
 python3 01_python_syntax.py
 python3 07_lists.py
 # ... etc
-
-cd Lab2
-python3 01_linear_search.py
-python3 03_common_in_two_arrays.py
 ```
 
 > **Note:** Scripts with user input (e.g. `02_input_output.py`) require interactive input when run.
