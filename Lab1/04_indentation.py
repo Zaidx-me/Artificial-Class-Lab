@@ -40,9 +40,3 @@ def greet(name):
 # Calling the function
 greet("Alice")
 greet("Bob")
-
-# Important rules:
-# 1. Use 4 spaces per indentation level (recommended)
-# 2. Never mix tabs and spaces
-# 3. All statements in the same block must have same indentation
-# 4. Maximum line length should be 79 characters

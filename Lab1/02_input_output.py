@@ -1,11 +1,11 @@
 # Lab 1: Input and Output
-# This program demonstrates input() and print() functions
+# This program shows input() and print() functions
 
-# Basic input - reads a string from user
+# Basic input reads a string from user
 name = input("Enter your name: ")
 print("Hello, " + name + "!")
 
-# Input with prompt and storing as different types
+# Input and storing as different types
 age = input("Enter your age: ")
 print("Your age is:", age)
 print("Type of age:", type(age))
@@ -13,10 +13,6 @@ print("Type of age:", type(age))
 # Converting input to integer
 age_int = int(input("Enter your age (as number): "))
 print("Next year you will be:", age_int + 1)
-
-# Input with type conversion to float
-height = float(input("Enter your height in meters: "))
-print("Your height in centimeters:", height * 100)
 
 # Multiple inputs in one line
 print("\nEnter two numbers:")
