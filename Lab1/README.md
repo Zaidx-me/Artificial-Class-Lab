@@ -46,6 +46,7 @@ Covers the basics of Python syntax including the `print()` function and single-l
 **Example output:**
 ```
 Hello, World!
+Python is fun
 Python-is-fun
 Hello World
 ```
@@ -59,10 +60,8 @@ Demonstrates how to read user input and produce output.
 **Concepts demonstrated:**
 - `input()` with a prompt string
 - Strings are the default return type of `input()`
-- Type conversion: `int()`, `float()`, `str()`
-- `f-strings` for formatted output
+- Type conversion: `int()` to do math
 - Arithmetic on user-provided numbers
-- `eval()` for evaluating expressions
 
 **Key point:** `input()` always returns a string — you must cast it explicitly for math.
 
@@ -87,7 +86,6 @@ Python uses whitespace indentation instead of braces `{}` to define code blocks.
 
 **Concepts demonstrated:**
 - Basic `if` block indentation
-- Nested `if` blocks (deeper indentation)
 - `for` loops and their indented body
 - `while` loops and their indented body
 - Function definitions and their indented body
@@ -120,10 +118,10 @@ The most comprehensive file — covers all fundamental Python data types.
 |----------|--------|
 | **Numeric types** | `int`, `float`, complex numbers (`3+4j`) |
 | **Booleans** | `True`/`False`, booleans as integers (`True + True = 2`) |
-| **Strings** | Creation (single/double/triple quotes), immutability, escape sequences (`\n`, `\t`, `\\`) |
-| **String indexing** | Positive index (`word[0]`), negative index (`word[-1]`) |
-| **String slicing** | `word[:3]`, `word[1:5]`, `word[::-1]` (reverse) |
-| **Type casting** | `int()`, `float()`, `str()`, `bool()` conversions |
+| **Strings** | Creation, immutability, `len()`, escape sequences (`\n`, `\t`) |
+| **String indexing** | Positive index (`name[0]`), negative index (`name[-1]`) |
+| **String slicing** | `name[0:3]` |
+| **Type casting** | `int()`, `float()`, `str()` conversions |
 
 **Escape sequences covered:**
 | Sequence | Meaning |
@@ -141,13 +139,14 @@ The most comprehensive file — covers all fundamental Python data types.
 Covers Python's most versatile data structure — the list.
 
 **Concepts demonstrated:**
-- Creating lists: `[]`, `list()`, `list(range())`, nested lists
+- Creating lists with values
 - Positive and negative indexing
-- Slicing syntax: `list[start:end:step]`
-- List methods: `append()`, `insert()`, `remove()`, `pop()`, `sort()`, `reverse()`
-- Built-in functions: `len()`, `min()`, `max()`, `sum()`
-- Concatenation (`+`) and repetition (`*`)
+- Slicing: `fruits[0:2]`
+- Adding items with `append()`, removing with `remove()`
+- Looping through a list with `for`
 - Membership testing with `in`
+- Built-in functions: `len()`, `min()`, `max()`, `sum()`
+- Sorting with `sort()`
 
 **Indexing example:**
 ```
@@ -178,10 +177,7 @@ Covers all comparison operators and control flow with `if`/`elif`/`else`.
 - Simple `if` statements
 - `if`/`else` branching
 - `if`/`elif`/`else` chains (grade calculator)
-- Nested conditionals
 - Logical operators: `and`, `or`, `not`
-- Ternary (conditional) expressions
-- Practical examples: calculator, leap year checker
 
 ---
 
@@ -192,13 +188,11 @@ Searches a list for a value by checking each element in order.
 **Concepts demonstrated:**
 - A single `linear_search(items, target)` function using a `for` loop with `range()`
 - Returning the index when found, or `-1` when the value is not present
-- Using the returned value in an `if` statement
 
 **Example output:**
 ```
-List: [10, 23, 45, 70, 11, 15, 20]
-45 found at index 2
-99 not found
+45 is at index: 2
+99 is at index: -1   # -1 means not found
 ```
 
 ---
@@ -214,13 +208,10 @@ Searches one value across two arrays and reports where it was found.
 
 **Example output:**
 ```
-Array A: [3, 7, 12, 25, 42]
-Array B: [8, 12, 25, 50, 77]
-
-25 found in both arrays (index 3 and 2)
-3 found only in the first array at index 0
-8 found only in the second array at index 0
-99 not found in either array
+25 is in both arrays
+3 is only in the first array
+8 is only in the second array
+99 is in neither array
 ```
 
 ---

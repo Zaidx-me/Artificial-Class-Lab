@@ -1,23 +1,20 @@
 # Lab 1: Python Syntax
-# This program demonstrates basic Python syntax
+# Basics of print() and comments
 
-# Simple print statement
+# Anything after # is a comment. Python ignores it.
+
 print("Hello, World!")
 
-# Print with multiple arguments
-print("Python", "is", "a", "general-purpose", "language")
+# print() can take multiple values
+print("Python", "is", "fun")
 
-# Print with different data types
-print("Integer:", 42)
-print("Float:", 3.14)
-print("String:", "Hello")
-
-# Single-line comment (everything after # is ignored)
-# This is a single-line comment
-
-# Print with sep parameter to change separator
+# sep changes what goes between the values
 print("Python", "is", "fun", sep="-")
 
-# Print with end parameter to change ending
+# end changes what goes at the end (default is a newline)
 print("Hello", end=" ")
 print("World")
+
+# It can print numbers too
+print(42)
+print(3.14)

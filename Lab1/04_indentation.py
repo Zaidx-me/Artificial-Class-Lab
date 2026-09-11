@@ -1,42 +1,24 @@
 # Lab 1: Indentation
-# This program demonstrates Python's indentation rules
+# Python uses spaces at the start of a line to show code blocks
 
-# Python uses indentation to define code blocks
-# Unlike C/C++ which use braces {}
-
-# Example 1: Basic indentation with if statement
 x = 10
 if x > 5:
-    print("x is greater than 5")  # This is inside the if block
-    print("x is definitely positive")  # Also inside the if block
+    print("x is greater than 5")   # this line is inside the if block
+    print("x is positive")         # so is this one
 
-# Example 2: Nested indentation
-y = 20
-if y > 10:
-    print("y is greater than 10")
-    if y > 15:
-        print("y is also greater than 15")  # Nested block
+# for loop
+for i in range(3):
+    print("Number:", i)
 
-# Example 3: Indentation with for loop
-print("\nCounting from 1 to 5:")
-for i in range(1, 6):
-    print(i, end=" ")  # Print on same line
-
-# Example 4: Indentation with while loop
-print("\n\nCountdown:")
-count = 5
+# while loop
+count = 3
 while count > 0:
-    print(count, end=" ")
-    count -= 1
-print("Done!")
+    print(count)
+    count = count - 1
 
-# Example 5: Functions and indentation
+# function
 def greet(name):
-    """Demonstrate function indentation"""
-    message = "Hello, " + name + "!"
-    print(message)
-    return message
+    print("Hello,", name)
 
-# Calling the function
 greet("Alice")
 greet("Bob")
