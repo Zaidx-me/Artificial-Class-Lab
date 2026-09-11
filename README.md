@@ -1,204 +1,95 @@
-# Artificial-Class-Lab
+# Artificial-Class-Lab 🧪
 
-> Introduction to AI and Its Application Using Python
+> Hands-on Python labs — *Introduction to AI and Its Application Using Python*
 
-This repository contains hands-on Python scripts demonstrating core programming concepts taught in **Lab 1**. Each file is self-contained and can be run independently with Python 3.
+This repository contains a series of lab exercises on Python fundamentals. Each lab lives in its own folder with **three things**:
+
+| What | File | Purpose |
+|------|------|---------|
+| 📖 **Explanation** | `README.md` | Independent, detailed guide to every file and concept in that lab |
+| 📜 **Manual** | `manual.md` | The official lab manual / assignment sheet for the lab |
+| 🐍 **Scripts** | `*.py` | Runnable demonstration scripts per topic |
 
 ---
 
-## Repository Structure
+## 🗺️ Navigating This Repository
 
 ```
-.
-├── Lab1/
-│   ├── manual.md                 # Original lab manual / reference guide
-│   ├── README.md                 # Lab1 quick-reference table
-│   ├── 01_python_syntax.py       # print() and comments
-│   ├── 02_input_output.py        # input() and print()
-│   ├── 03_multiple_statements.py # Semicolons & single-line statements
-│   ├── 04_indentation.py         # Indentation & code blocks
-│   ├── 05_reserved_words.py      # Reserved keywords
-│   ├── 06_data_types.py          # Numbers, Booleans, Strings, casting
-│   ├── 07_lists.py               # Lists: creation, indexing, slicing
-│   └── 08_conditionals.py        # Comparison operators & if/elif/else
+Artificial-Class-Lab/
+│
+├── README.md                ← You are here (navigation hub)
+│
+├── Lab1/                    ← Lab 1: Python Fundamentals
+│   ├── README.md            ← Explanatory guide → links to manual + all scripts
+│   ├── manual.md            ← Lab 1 manual
+│   ├── 01_python_syntax.py
+│   ├── 02_input_output.py
+│   ├── 03_multiple_statements.py
+│   ├── 04_indentation.py
+│   ├── 05_reserved_words.py
+│   ├── 06_data_types.py
+│   ├── 07_lists.py
+│   └── 08_conditionals.py
+│
+├── Lab2/                    ← Lab 2: (pending)   [📖 + 📜 coming soon]
+├── Lab3/                    ← Lab 3: (pending)   [📖 + 📜 coming soon]
+├── Lab4/                    ← Lab 4: (pending)   [📖 + 📜 coming soon]
+│
 └── .gitignore
 ```
 
----
+**How to navigate:**
 
-## Lab 1 — Detailed File Guide
-
-### 01_python_syntax.py — Print Statements & Comments
-
-Covers the basics of Python syntax including the `print()` function and single-line comments.
-
-**Concepts demonstrated:**
-- `print()` with multiple arguments
-- Printing different data types (int, float, string)
-- The `sep` and `end` parameters of `print()`
-- Single-line comments using `#`
-
-**Example output:**
-```
-Hello, World!
-Python-is-fun
-Hello World
-```
+1. **Find your lab** → use the Labs table below
+2. **Open the lab's `README.md`** → it explains every file in that lab, topic by topic
+3. **Check the `manual.md`** → for the official assignment content
+4. **Run the scripts** → each `.py` file is self-contained (see [Getting Started](#-getting-started))
 
 ---
 
-### 02_input_output.py — User Input and Output
+## 📚 Labs Index
 
-Demonstrates how to read user input and produce output.
+| Lab | Topics | Explanation | Manual | Scripts | Status |
+|-----|--------|-------------|--------|---------|--------|
+| **Lab 1** | Python syntax, input/output, data types, strings, lists, conditionals | [📖 Read](Lab1/README.md) | [📜 View](Lab1/manual.md) | [▶ Run](Lab1/README.md#-how-to-run) | ✅ Complete |
+| **Lab 2** | *To be assigned* | — | — | — | ⏳ Pending |
+| **Lab 3** | *To be assigned* | — | — | — | ⏳ Pending |
+| **Lab 4** | *To be assigned* | — | — | — | ⏳ Pending |
 
-**Concepts demonstrated:**
-- `input()` with a prompt string
-- Strings are the default return type of `input()`
-- Type conversion: `int()`, `float()`, `str()`
-- `f-strings` for formatted output
-- Arithmetic on user-provided numbers
-- `eval()` for evaluating expressions
-
-**Key point:** `input()` always returns a string — you must cast it explicitly for math.
+> **Pattern:** Every new lab folder will follow the same structure — `README.md` (explanation), `manual.md` (manual), and numbered `NN_topic.py` scripts.
 
 ---
 
-### 03_multiple_statements.py — Multiple Statements on One Line
+## ▶ Getting Started
 
-Shows how to write several Python statements on a single line using semicolons (`;`).
+### 1. Clone the repository
 
-**Concepts demonstrated:**
-- Variable assignment with `;` separator
-- Multiple `print()` calls on one line
-- When semicolons are useful vs. why they should be used sparingly
-
-**Note:** While valid syntax, this pattern reduces readability and is discouraged in production code.
-
----
-
-### 04_indentation.py — Indentation Rules
-
-Python uses whitespace indentation instead of braces `{}` to define code blocks.
-
-**Concepts demonstrated:**
-- Basic `if` block indentation
-- Nested `if` blocks (deeper indentation)
-- `for` loops and their indented body
-- `while` loops and their indented body
-- Function definitions and their indented body
-- Consistent 4-space indentation convention
-
-**Key rule:** All statements in the same block must share identical indentation.
-
----
-
-### 05_reserved_words.py — Python Keywords
-
-Lists all Python 3 reserved words and demonstrates how to check if a word is a keyword.
-
-**Concepts demonstrated:**
-- Complete list of Python 3 reserved keywords (35 total)
-- Using the `keyword` module (`keyword.iskeyword()`)
-- Why reserved words cannot be used as variable names
-
-**Output includes:** A formatted table of all reserved words and a test showing which sample words are reserved.
-
----
-
-### 06_data_types.py — Numbers, Booleans, Strings, and Type Casting
-
-The most comprehensive file — covers all fundamental Python data types.
-
-**Concepts demonstrated:**
-
-| Category | Topics |
-|----------|--------|
-| **Numeric types** | `int`, `float`, complex numbers (`3+4j`) |
-| **Booleans** | `True`/`False`, booleans as integers (`True + True = 2`) |
-| **Strings** | Creation (single/double/triple quotes), immutability, escape sequences (`\n`, `\t`, `\\`) |
-| **String indexing** | Positive index (`word[0]`), negative index (`word[-1]`) |
-| **String slicing** | `word[:3]`, `word[1:5]`, `word[::-1]` (reverse) |
-| **Type casting** | `int()`, `float()`, `str()`, `bool()` conversions |
-
-**Escape sequences covered:**
-| Sequence | Meaning |
-|----------|---------|
-| `\n` | Newline |
-| `\t` | Horizontal tab |
-| `\\` | Backslash |
-| `\'` | Single quote |
-| `\"` | Double quote |
-
----
-
-### 07_lists.py — List Creation, Indexing, and Slicing
-
-Covers Python's most versatile data structure — the list.
-
-**Concepts demonstrated:**
-- Creating lists: `[]`, `list()`, `list(range())`, nested lists
-- Positive and negative indexing
-- Slicing syntax: `list[start:end:step]`
-- List methods: `append()`, `insert()`, `remove()`, `pop()`, `sort()`, `reverse()`
-- Built-in functions: `len()`, `min()`, `max()`, `sum()`
-- Concatenation (`+`) and repetition (`*`)
-- Membership testing with `in`
-
-**Indexing example:**
-```
-colors = ["RED", "Blue", "Green", "Black"]
-
-Index from left:   0      1       2       3
-Index from right: -4     -3      -2      -1
+```bash
+git clone https://github.com/Zaidx-me/Artificial-Class-Lab.git
+cd Artificial-Class-Lab
 ```
 
----
-
-### 08_conditionals.py — Comparison Operators and Conditional Statements
-
-Covers all comparison operators and control flow with `if`/`elif`/`else`.
-
-**Concepts demonstrated:**
-
-| Operator | Meaning |
-|----------|---------|
-| `==` | Equals |
-| `!=` | Not equals |
-| `<` | Less than |
-| `<=` | Less than or equal |
-| `>` | Greater than |
-| `>=` | Greater than or equal |
-
-**Also covers:**
-- Simple `if` statements
-- `if`/`else` branching
-- `if`/`elif`/`else` chains (grade calculator)
-- Nested conditionals
-- Logical operators: `and`, `or`, `not`
-- Ternary (conditional) expressions
-- Practical examples: calculator, leap year checker
-
----
-
-## How to Run
-
-Each script is independent — run any of them with:
+### 2. Run any lab script
 
 ```bash
 cd Lab1
 python3 01_python_syntax.py
-python3 02_input_output.py
-python3 06_data_types.py
+python3 07_lists.py
 # ... etc
 ```
 
-> **Note:** Scripts `02_input_output.py` require interactive input when run.
+> **Note:** Scripts with user input (e.g. `02_input_output.py`) require interactive input when run.
 
-## Requirements
+### 3. Requirements
 
-- **Python 3.6+** (uses f-strings)
-- **No external packages** — only Python standard library
+- **Python 3.6+** (scripts use f-strings)
+- **No external packages** — Python standard library only
 
-## Lab Manual
+---
 
-The original lab manual is included as [`Lab1/manual.md`](Lab1/manual.md) for reference.
+## 🏗️ Repository Conventions
+
+- Each lab folder is self-contained: **explanation** + **manual** + **scripts**
+- Scripts are numbered (`NN_topic.py`) to reflect the order topics are introduced
+- Code follows the **PEP 8** conventions taught in Lab 1 (4-space indentation, 79-char lines)
+- Python artifacts and agent metadata are excluded via `.gitignore`
