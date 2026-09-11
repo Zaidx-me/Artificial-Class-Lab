@@ -1,11 +1,11 @@
-# 📖 Lab 1 — Python Fundamentals
+# Lab 1 — Python Fundamentals
 
 > **Introduction to AI and Its Application Using Python**
 
-| 🔗 Navigation | |
+| Navigation | |
 |---|---|
-| 🏠 **Repository hub** | [← Back to main README](../README.md) |
-| 📜 **Official manual** | [manual.md](manual.md) — the original assignment sheet |
+| **Repository hub** | [← Back to main README](../README.md) |
+| **Official manual** | [manual.md](manual.md) — the original assignment sheet |
 
 ---
 
@@ -13,7 +13,7 @@
 
 Lab 1 introduces the core building blocks of Python: syntax, input/output, data types, strings, lists, and conditional statements. Each topic below has its own runnable script, listed in teaching order.
 
-## 📁 Files in This Lab
+## Files in This Lab
 
 | # | File | Topic |
 |---|------|-------|
@@ -182,7 +182,7 @@ Covers all comparison operators and control flow with `if`/`elif`/`else`.
 
 ---
 
-## ▶ How to Run
+## How to Run
 
 Each script is independent — run any of them with:
 
@@ -199,12 +199,12 @@ python3 06_data_types.py
 
 ---
 
-## 📜 Manual Reference
+## Manual Reference
 
 The official lab manual for this lab: [`manual.md`](manual.md)
 
 ---
 
-| 🔗 Navigation | |
+| Navigation | |
 |---|---|
-| 🏠 **Repository hub** | [← Back to main README](../README.md) |
+| **Repository hub** | [← Back to main README](../README.md) |

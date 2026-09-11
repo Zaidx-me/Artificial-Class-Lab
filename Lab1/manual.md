@@ -274,7 +274,7 @@ color_list = ["RED", "Blue", "Green", "Black"]
 'RED'
 ```
 
-> ⚠️ **Caution:** Giving an index value which is **out of range** makes the interpreter raise an error message:
+> **Caution:** Giving an index value which is **out of range** makes the interpreter raise an error message:
 > ```python
 > >>> color_list[5]
 > IndexError: list index out of range
