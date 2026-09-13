@@ -2,10 +2,10 @@
 
 Composite = (Time × 0.25) + (AI Accuracy × 0.20) + (Features % / 10 × 0.25) + (Code Quality × 0.30)
 
-**Verification status** (per row, see `raw-results.csv` / `methodology.md`):
+**Verification status** (per row, see `scores.csv` / `methodology.md`):
 - **MANUAL** — actually run 2026-09-13 on this machine, `pytest` 3/3 pass confirmed
 - **SIMULATED** — real tool unavailable on this machine (auth/app/install limits); a matching
-  reference implementation was produced & verified (`implementations/<tool>/`), scored honestly
+  reference implementation was produced & verified (`code/reference/<tool>/`), scored honestly
 - **ESTIMATE** — not run; estimated from published model/latency data only
 
 | Rank | IDE | Type | Composite | Time (min) | AI Acc | Features % | Quality | Status |

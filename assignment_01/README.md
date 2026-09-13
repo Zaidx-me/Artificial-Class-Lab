@@ -19,38 +19,43 @@ Polyglot, independent latency/pricing reviews).
 
 ## The 10 tools
 
-| # | Folder | IDE | Type | Status |
-|---|--------|-----|------|--------|
-| 1 | `01-cursor` | Cursor | Standalone AI IDE (VS Code fork) | SIMULATED (trial-login blocked) |
-| 2 | `03-windsurf` | Windsurf (now Devin Desktop) | Standalone AI IDE (VS Code fork) | SIMULATED (app error) |
-| 3 | `04-trae` | Trae (ByteDance) | Standalone AI IDE (VS Code fork) | **MANUAL — live run** |
-| 4 | `05-zed` | Zed AI | Native Rust GUI IDE | **MANUAL — live run** |
-| 5 | `06-replit` | Replit | Cloud / browser IDE | ESTIMATE |
-| 6 | `07-vscode-copilot` | VS Code + GitHub Copilot | Editor + Extension | **MANUAL — live run** |
-| 7 | `08-vscode-cline` | VS Code + Cline | Editor + Autonomous Agent | **MANUAL — live run** |
-| 8 | `09-claude-code` | Claude Code | CLI Agent | SIMULATED (login blocked) |
-| 9 | `10-aider` | Aider | Terminal Agent | SIMULATED (install failed) |
-| 10 | `02-google-antigravity` | Google Antigravity | Standalone Agentic IDE | SIMULATED (not installed) |
+| # | Tools page | IDE | Type | Status |
+|---|-----------|-----|------|--------|
+| 1 | `tools/01-cursor.md` | Cursor | Standalone AI IDE (VS Code fork) | SIMULATED (trial-login blocked) |
+| 2 | `tools/02-google-antigravity.md` | Google Antigravity | Standalone Agentic IDE | SIMULATED (not installed) |
+| 3 | `tools/03-windsurf.md` | Windsurf (now Devin Desktop) | Standalone AI IDE (VS Code fork) | SIMULATED (app error) |
+| 4 | `tools/04-trae.md` | Trae (ByteDance) | Standalone AI IDE (VS Code fork) | **MANUAL — live run** |
+| 5 | `tools/05-zed.md` | Zed AI | Native Rust GUI IDE | **MANUAL — live run** |
+| 6 | `tools/06-replit.md` | Replit | Cloud / browser IDE | ESTIMATE |
+| 7 | `tools/07-vscode-copilot.md` | VS Code + GitHub Copilot | Editor + Extension | **MANUAL — live run** |
+| 8 | `tools/08-vscode-cline.md` | VS Code + Cline | Editor + Autonomous Agent | **MANUAL — live run** |
+| 9 | `tools/09-claude-code.md` | Claude Code | CLI Agent | SIMULATED (login blocked) |
+| 10 | `tools/10-aider.md` | Aider | Terminal Agent | SIMULATED (install failed) |
 
 > Note: Codeium was dropped from the final report (its autocomplete-only product is no longer
 > competitive with agent tools and has been folded into the Windsurf/Devin family); Google
 > Antigravity took its place as tool #2 per the written report. Folder numbering follows the
-> written report order (see `ide-setup-notes/`).
+> written report order (see `tools/`).
 
 ## Repository layout
 
 ```
 assignment_01/
-├── README.md                      <- this file
-├── task-spec.md                   <- the benchmark task (same for every IDE)
-├── benchmark-data/
-│   ├── raw-results.csv            <- all scores, with sources + MANUAL/SIMULATED/ESTIMATE
-│   ├── methodology.md             <- how scores were derived & honest-labelled
-│   ├── ranking-table.md           <- final ranked table
-│   └── analysis.md                <- pros/cons, findings, recommendation
-├── ide-setup-notes/               <- setup notes + install commands per tool
-├── implementations/               <- verified reference code per tool (SIMULATED set)
-└── benchmark-runs/                <- live run folders + manual benchmark kit
+├── README.md                 <- this file (start here)
+├── task-spec.md              <- the benchmark task (same for every IDE)
+├── results/                  <- all scoring data
+│   ├── scores.csv            <- one row per tool, with sources + MANUAL/SIMULATED/ESTIMATE
+│   ├── ranking.md            <- final ranked table
+│   ├── methodology.md        <- how scores were derived & honest-labelled
+│   ├── rubric.md             <- scoring rules + composite formula
+│   └── analysis.md           <- pros/cons, findings, recommendation
+├── tools/                    <- one page per tool: install + key facts (01–10)
+├── code/                     <- the produced code
+│   ├── live-run/             <- what the 4 real tools actually produced (Trae, Zed, Copilot, Cline)
+│   └── reference/            <- verified reference implementations (6 remaining tools, `pytest` 3/3)
+└── report/                   <- docs for the written report
+    ├── handwritten-report-outline.md
+    └── manual-benchmark-guide.md
 ```
 
 ## Headline finding
@@ -65,5 +70,5 @@ is **Trae** or **Cline**.
 All quantitative scores reference public leaderboards (links inside each file):
 - SWE-bench Verified official leaderboard — https://swebench.com
 - Aider Polyglot leaderboard — https://aider.chat/docs/leaderboards
-- LLM-stats / CodeSOTA aggregations — links in `methodology.md`
-- Google Antigravity SWE-bench (76.2%) — antigravity.im guide (cited in `raw-results.csv`)
+- LLM-stats / CodeSOTA aggregations — links in `results/methodology.md`
+- Google Antigravity SWE-bench (76.2%) — antigravity.im guide (cited in `results/scores.csv`)

@@ -3,7 +3,7 @@
 STATUS: **written** — full 12-page draft is in the handwritten notebook (title page,
 introduction/theoretical framework, 10 tool profiles, task & methodology, results table +
 bar chart, pros/cons, decision matrix, key findings + sources). This outline is the source
-of truth for the repo files; regenerate pages 7–8 from `benchmark-data/ranking-table.md`
+of truth for the repo files; regenerate pages 7–8 from `../results/ranking.md`
 after any re-run.
 
 ## Page 1 — Title Page
@@ -38,7 +38,7 @@ after any re-run.
 - Composite formula (show it)
 
 ## Pages 7–8 — Results & Ranking
-- Copy `ranking-table.md` table (10 rows)
+- Copy `ranking.md` table (10 rows)
 - Draw a horizontal bar chart of composite scores by hand
 - Call out the top/bottom 3
 

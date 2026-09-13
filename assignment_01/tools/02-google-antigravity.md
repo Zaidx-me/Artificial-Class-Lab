@@ -10,7 +10,7 @@ wget -O antigravity.AppImage "https://antigravity.google/download/linux"
 chmod +x antigravity.AppImage && ./antigravity.AppImage
 ```
 On this machine: **not installed** (download + Google login required); benchmark scored as
-SIMULATED with a verified reference implementation (`implementations/antigravity/`).
+SIMULATED with a verified reference implementation (`../code/reference/google-antigravity/`).
 
 ## Key facts (published, Sep 2026)
 - Gemini 3 powered; dual-surface Editor + Manager ("mission control") architecture

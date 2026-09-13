@@ -49,5 +49,5 @@ Weighting rationale:
 ## Data provenance
 
 Quantitative columns are compiled from public benchmarks and are **not** own-measurement.
-Every number in `raw-results.csv` carries a source link. Columns marked "estimated"
+Every number in `scores.csv` carries a source link. Columns marked "estimated"
 (task time) or "reviewed" (code quality) are clearly labelled.

@@ -2,7 +2,7 @@
 
 Scores: composite (1–10). Verification status: MANUAL (real run on this machine),
 SIMULATED (reference impl produced & verified locally, real tool blocked), ESTIMATE
-(published data only). Details in `methodology.md` & `raw-results.csv`.
+(published data only). Details in `methodology.md` & `scores.csv`.
 
 ---
 
