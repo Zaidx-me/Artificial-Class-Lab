@@ -1,4 +1,4 @@
-# 07 — VS Code + Cline
+# 08 — VS Code + Cline
 
 **Type:** Editor + Autonomous Agent extension · **Developer:** saoudrizwan (OSS)
 

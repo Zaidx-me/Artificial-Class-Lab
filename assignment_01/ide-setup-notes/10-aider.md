@@ -1,4 +1,4 @@
-# 09 — Aider
+# 10 — Aider
 
 **Type:** Terminal Agent (BYO model) · **Developer:** Aider-AI (open source)
 
@@ -18,3 +18,7 @@ Then set your model key, e.g. `export OPENAI_API_KEY=...` or `ANTHROPIC_API_KEY=
 ## Notes
 - Free, Apache-2.0, 45K+ stars. Publishes the Aider Polyglot leaderboard; with GPT-5 its
   best result is **88%** — the top code-editing score we used.
+- **This machine:** `paru -S aider-chat` failed twice — the AUR package pulls a huge
+  dependency tree (pandoc, streamlit, arrow, haskell toolchain) and a slow mirror returned
+  404s. Skipped per plan; benchmark row is SIMULATED.
+- Preferred install on this box: `uv tool install aider-chat` (lighter, mirrors-independent).

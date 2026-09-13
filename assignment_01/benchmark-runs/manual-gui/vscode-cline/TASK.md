@@ -46,16 +46,13 @@ Ali         84.33     90        B
 Sara        62.33     70        C
 Hamza       91.67     95        A
 Ayesha      47.67     50        F
-Bilal       70.67     73        B
+Bilal       70.67     73        C
 
 Class Stats:
 Overall Average: 71.33
 Top Scorer: Hamza (91.67)
 Lowest Scorer: Ayesha (47.67)
 ```
-
-> Bilal's grade is **B** (70.67 ≥ 70 threshold). Older drafts of the sample output
-> wrongly showed "C" — the threshold rule above is authoritative.
 
 ## Acceptance checks
 

@@ -1,4 +1,4 @@
-# 04 — Zed AI
+# 05 — Zed AI
 
 **Type:** Native Rust GUI IDE · **Developer:** Zed Industries
 

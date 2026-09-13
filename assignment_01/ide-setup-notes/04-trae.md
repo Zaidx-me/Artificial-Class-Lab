@@ -1,4 +1,4 @@
-# 03 — Trae
+# 04 — Trae
 
 **Type:** Standalone AI IDE (VS Code fork) · **Developer:** ByteDance
 

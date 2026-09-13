@@ -1,4 +1,4 @@
-# 02 — Windsurf (now Devin Desktop)
+# 03 — Windsurf (now Devin Desktop)
 
 **Type:** Standalone AI IDE (VS Code fork) · **Developer:** Codeium → Cognition AI
 

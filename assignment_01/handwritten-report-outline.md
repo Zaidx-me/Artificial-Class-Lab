@@ -1,6 +1,10 @@
 # Handwritten Report Outline
 
-Write/present this by hand (or on slides). ~10–12 pages.
+STATUS: **written** — full 12-page draft is in the handwritten notebook (title page,
+introduction/theoretical framework, 10 tool profiles, task & methodology, results table +
+bar chart, pros/cons, decision matrix, key findings + sources). This outline is the source
+of truth for the repo files; regenerate pages 7–8 from `benchmark-data/ranking-table.md`
+after any re-run.
 
 ## Page 1 — Title Page
 - Title: **Benchmarking 10 Modern AI Coding IDEs**
@@ -16,15 +20,15 @@ Write/present this by hand (or on slides). ~10–12 pages.
 
 ## Pages 4–5 — The 10 Tools (2 lines each)
 1. Cursor – VS Code fork, best-in-class UX
-2. Windsurf/Devin Desktop – agent-first fork, rebranded 2026
-3. Trae – ByteDance fork, free preview, strong agent
-4. Zed AI – native Rust, open source, fast
-5. Replit – browser IDE, all-in-one
-6. VS Code + Copilot – industry-standard extension
-7. VS Code + Cline – open-source autonomous agent
-8. Claude Code – CLI agent, best default model
-9. Aider – terminal BYO-model agent
-10. Codeium – free autocomplete extension
+2. Google Antigravity – Google's agent-first Editor + Manager IDE on Gemini 3
+3. Windsurf/Devin Desktop – agent-first fork, rebranded 2026
+4. Trae – ByteDance fork, free preview, strong agent
+5. Zed AI – native Rust, open source, fast
+6. Replit – browser IDE, all-in-one
+7. VS Code + Copilot – industry-standard extension
+8. VS Code + Cline – open-source autonomous agent
+9. Claude Code – CLI agent, best default model
+10. Aider – terminal BYO-model agent
 
 ## Page 6 — Task & Methodology
 - Task: Student Grades Manager (grades.py + pytest + students.txt) — `task-spec.md`

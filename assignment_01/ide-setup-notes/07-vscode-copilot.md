@@ -1,4 +1,4 @@
-# 06 — VS Code + GitHub Copilot
+# 07 — VS Code + GitHub Copilot
 
 **Type:** Editor + Extension · **Developer:** Microsoft / GitHub
 

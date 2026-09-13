@@ -34,6 +34,7 @@ a transparent proxy approach:
 | Tool | Default/primary model(s) | SWE-bench Verified used |
 |---|---|---|
 | Cursor | Claude Sonnet/Opus + GPT (Composer) | 77% class (Sonnet 4.5) |
+| Google Antigravity | Gemini 3 (AI Pro) + multi-model | 76.2% (antigravity guide) |
 | Windsurf (Devin Desktop) | SWE-1.5 proprietary + Claude/GPT/Gemini picker | 77% class |
 | Trae | Claude/GPT (BYO key) + Doubao-Seed-Code agent | 78.8% (Trae agent) |
 | Zed AI | Claude via ACP (agent runs externally) | 77% class w/ Claude Code |
@@ -42,7 +43,22 @@ a transparent proxy approach:
 | VS Code + Cline | Claude (Sonnet 4.5) via API | 77% class |
 | Claude Code | Claude Sonnet 4.5 (default) | 77.2% (official) |
 | Aider | BYO model (best: GPT-5) | 74% class / GPT-5 polyglot 88% |
-| Codeium | autocomplete models (Windsurf family) | n/a (completion-only) |
+
+## Verification status (honest labelling)
+
+Every row in `raw-results.csv` carries one of three statuses:
+
+- **MANUAL** — the tool was actually run on this machine against `TASK.md` on 2026-09-13;
+  the produced code lives in `benchmark-runs/manual-gui/<tool>/` and I re-ran `pytest` to
+  confirm it passes. (Trae, Zed AI, VS Code + Copilot, VS Code + Cline.)
+- **SIMULATED** — the tool was unavailable (Cursor trial-login blocked, Windsurf app crash,
+  Antigravity not installed, Aider AUR install failed, Claude login blocked). A matching
+  reference implementation was written in `implementations/<tool>/` and also passes `pytest`;
+  scores are my honest estimate of what that tool would produce.
+- **ESTIMATE** — no local run at all (Replit); scores inferred from published model/latency data.
+
+`Task_Time_Min` for SIMULATED rows is an educated estimate, not a stopwatch measurement:
+be honest about this in the handwritten report (the formula and rubric still apply).
 
 ## Honesty note
 
