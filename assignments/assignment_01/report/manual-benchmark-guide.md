@@ -1,12 +1,12 @@
 # Manual GUI Benchmark — How to Run & Record
 
 The task spec lives at the repo root (`../task-spec.md`). Each tool runs entirely in a
-fresh folder of its own; only the code it produces is kept (see `../code/live-run/`).
+fresh folder of its own; only the code it produces is kept (see `../code/`).
 
 ## Procedure (same for every tool)
 
 1. Open the tool (log in where needed).
-2. Create/open a fresh empty folder for the run (e.g. `../code/live-run/<tool>/`).
+2. Create/open a fresh empty folder for the run (e.g. `../code/<tool>/`).
 3. Paste the spec from `../task-spec.md` into the tool's chat. Use ONLY the tool's AI
    features (Chat / Agent / Copilot chat). Do not manually type the solution.
 4. Note your **start time**, then prompt the AI with: **"Read TASK.md and implement it."**

@@ -49,11 +49,11 @@ a transparent proxy approach:
 Every row in `scores.csv` carries one of three statuses:
 
 - **MANUAL** — the tool was actually run on this machine against `TASK.md` on 2026-09-13;
-  the produced code lives in `code/live-run/<tool>/` and I re-ran `pytest` to
+  the produced code lives in `code/<tool>/` and I re-ran `pytest` to
   confirm it passes. (Trae, Zed AI, VS Code + Copilot, VS Code + Cline.)
 - **SIMULATED** — the tool was unavailable (Cursor trial-login blocked, Windsurf app crash,
   Antigravity not installed, Aider AUR install failed, Claude login blocked). A matching
-  reference implementation was written in `code/reference/<tool>/` and also passes `pytest`;
+  reference implementation was written in `code/<tool>/` and also passes `pytest`;
   scores are my honest estimate of what that tool would produce.
 - **ESTIMATE** — no local run at all (Replit); scores inferred from published model/latency data.
 

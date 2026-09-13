@@ -51,8 +51,8 @@ assignment_01/
 │   └── analysis.md           <- pros/cons, findings, recommendation
 ├── tools/                    <- one page per tool: install + key facts (01–10)
 ├── code/                     <- the produced code
-│   ├── live-run/             <- what the 4 real tools actually produced (Trae, Zed, Copilot, Cline)
-│   └── reference/            <- verified reference implementations (6 remaining tools, `pytest` 3/3)
+│   └── <tool>/               <- per-tool output (4 live runs + 6 reference impls), see code/README.md
+│
 └── report/                   <- docs for the written report
     ├── handwritten-report-outline.md
     └── manual-benchmark-guide.md

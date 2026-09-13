@@ -8,5 +8,5 @@
 - 
 
 ## How to run
-See `../MANUAL-BENCHMARK-GUIDE.md`. Open this folder as the project, read `TASK.md`,
+See `../../report/manual-benchmark-guide.md`. Open this folder as the project, read `TASK.md`,
 prompt: "Read TASK.md and implement it.", time from prompt to passing pytest.
