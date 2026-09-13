@@ -4,7 +4,7 @@
 
 | Navigation | |
 |---|---|
-| **Repository hub** | [← Back to main README](../README.md) |
+| **Repository hub** | [← Back to main README](../../README.md) |
 | **Official manual** | [manual.md](manual.md) — the original assignment sheet |
 
 ---
@@ -259,4 +259,4 @@ The official lab manual for this lab: [`manual.md`](manual.md)
 
 | Navigation | |
 |---|---|
-| **Repository hub** | [← Back to main README](../README.md) |
+| **Repository hub** | [← Back to main README](../../README.md) |
