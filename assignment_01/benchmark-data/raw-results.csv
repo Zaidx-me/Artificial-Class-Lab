@@ -1,0 +1,11 @@
+IDE,Type,Primary_Model,SWEbench_Verified_Pct,Aider_Polyglot_Pct,Latency_Tab_ms,Task_Time_Est_Min,Task_Time_Score,AI_Accuracy_1_10,Features_Completed_Pct,Code_Quality_1_10,Setup_Difficulty_1_5,Price,Data_Source
+Cursor,Standalone Fork,Claude+GPT (Composer),77,61,200,12,8,8,77,9,1,"$20/mo Pro (free tier avail.)",swebench.com; pecollective.com latency table
+Windsurf (Devin),Standalone Fork,SWE-1.5 + Claude/GPT/Gemini,77,61,300,13,8,8,75,8,3,"Free 25 credits/mo; $15-20/mo Pro",swebench.com; pecollective.com; windsurf.com
+Trae,Standalone Fork,Doubao-Seed + Claude/GPT,78.8,55,~250,14,8,8,78,7,3,"Free (preview)",codesota.com agent table (Trae 78.8)
+Zed AI,Native Rust GUI,Claude via ACP (external),77,61,~50 (editor),16,6,7,72,8,2,"Free OSS; $20/mo Zed AI or BYO key",zed.dev/compare/cursor; swebench.com
+Replit,Cloud Browser,Ghostwriter custom GPT-family,55,23,~1000,19,6,6,55,6,1,"Free; $25/mo",swebench.com (GPT-4o-era 38-55%); pecollective
+VS Code + Copilot,Editor + Ext,Copilot (GPT-5),70,52,250,17,6,7,70,8,2,"$10/mo; free 50 req/mo; student free",pecollective.com; swebench.com (GPT-5 74.4%)
+VS Code + Cline,Editor + Agent,Claude Sonnet 4.5 (BYO key),77,61,~400,16,6,8,74,7,3,"Free OSS + API cost",swebench.com (Sonnet 4.5 77.2%)
+Claude Code,CLI Agent,Claude Sonnet 4.5,77.2,61,~300,11,8,9,77,9,2,"Free tier/API; Claude Pro $17-20/mo",anthropic.com (77.2% official)
+Aider,CLI Agent,BYO (best GPT-5),74,88,~300,14,8,8,74,8,2,"Free OSS + API cost",aider polyglot leaderboard (GPT-5 88)
+Codeium,Editor + Ext,Autocomplete models (Windsurf family),n.a.,n.a.,~40,20,2,5,45,6,2,"Free; $15/mo",pecollective.com; codeium docs
