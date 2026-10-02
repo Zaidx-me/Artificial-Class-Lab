@@ -20,10 +20,17 @@ Artificial-Class-Lab/
 ├── README.md                 ← You are here (navigation hub)
 │
 ├── labs/                     ← Labs
-│   └── Lab1/                 ← Lab 1: Python Fundamentals
+│   ├── Lab1/                 ← Lab 1: Python Fundamentals
+│   │   ├── README.md         ← Explanatory guide → links to manual + all scripts
+│   │   ├── manual.md         ← Lab 1 manual
+│   │   └── 01_python_syntax.py … 11_common_in_two_arrays.py
+│   ├── Lab2/                 ← Lab 2: Loops, Functions & Classes
+│   │   ├── README.md         ← Explanatory guide → links to all scripts
+│   │   └── 01_while_loop.py … 13_object_methods.py
+│   └── Lab3/                 ← Lab 3: Problem-Solving with Python
 │       ├── README.md         ← Explanatory guide → links to manual + all scripts
-│       ├── manual.md         ← Lab 1 manual
-│       └── 01_python_syntax.py … 11_common_in_two_arrays.py
+│       ├── Lab 3.pdf         ← Lab 3 manual
+│       └── q1.py … q14_2.py
 │
 ├── assignments/              ← Assignments
 │   └── assignment_01/        ← Assignment 1: Benchmarking 10 AI Coding IDEs
@@ -45,8 +52,8 @@ Artificial-Class-Lab/
 | Lab | Topics | Explanation | Manual | Scripts | Status |
 |-----|--------|-------------|--------|---------|--------|
 | **Lab 1** | Python syntax, input/output, data types, strings, lists, conditionals | [Read](labs/Lab1/README.md) | [View](labs/Lab1/manual.md) | [Run](labs/Lab1/README.md#how-to-run) | Complete |
-| **Lab 2** | *To be assigned* | — | — | — | Pending |
-| **Lab 3** | *To be assigned* | — | — | — | Pending |
+| **Lab 2** | `while`/`for` loops, `break`/`continue`, functions, classes & objects | [Read](labs/Lab2/README.md) | — | [Run](labs/Lab2/README.md#how-to-run) | Complete |
+| **Lab 3** | Nested loops, data structures, strings, `random`, regex, 2D arrays | [Read](labs/Lab3/README.md) | [View](labs/Lab3/Lab%203.pdf) | [Run](labs/Lab3/README.md#how-to-run) | Complete |
 | **Lab 4** | *To be assigned* | — | — | — | Pending |
 
 > **Pattern:** Every new lab folder follows the same structure — `README.md` (explanation), `manual.md` (manual), and numbered `NN_topic.py` scripts.

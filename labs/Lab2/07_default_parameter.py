@@ -6,7 +6,10 @@ def my_function(country = "Norway"):
 # Calling from function with parameter
 my_function("Sweden")
 my_function("Pakistan")
+
+# Calling from function with parameter
 my_function()
+
 my_function("Brazil")
 
 
