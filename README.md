@@ -30,7 +30,7 @@ Artificial-Class-Lab/
 │   └── Lab3/                 ← Lab 3: Problem-Solving with Python
 │       ├── README.md         ← Explanatory guide → links to manual + all scripts
 │       ├── Lab 3.pdf         ← Lab 3 manual
-│       └── q1.py … q14_2.py
+│       └── 01_divisible_by_7_and_5.py … 16_password_strength_checker.py
 │
 ├── assignments/              ← Assignments
 │   └── assignment_01/        ← Assignment 1: Benchmarking 10 AI Coding IDEs
