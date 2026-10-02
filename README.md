@@ -27,10 +27,14 @@ Artificial-Class-Lab/
 │   ├── Lab2/                 ← Lab 2: Loops, Functions & Classes
 │   │   ├── README.md         ← Explanatory guide → links to all scripts
 │   │   └── 01_while_loop.py … 13_object_methods.py
-│   └── Lab3/                 ← Lab 3: Problem-Solving with Python
+│   ├── Lab3/                 ← Lab 3: Problem-Solving with Python
+│   │   ├── README.md         ← Explanatory guide → links to manual + all scripts
+│   │   ├── Lab 3.pdf         ← Lab 3 manual
+│   │   └── 01_divisible_by_7_and_5.py … 16_password_strength_checker.py
+│   └── Lab4/                 ← Lab 4: Stacks, Queues & Binary Search
 │       ├── README.md         ← Explanatory guide → links to manual + all scripts
-│       ├── Lab 3.pdf         ← Lab 3 manual
-│       └── 01_divisible_by_7_and_5.py … 16_password_strength_checker.py
+│       ├── Lab 4.pdf         ← Lab 4 manual
+│       └── 01_stack.py … 03_binary_search.py
 │
 ├── assignments/              ← Assignments
 │   └── assignment_01/        ← Assignment 1: Benchmarking 10 AI Coding IDEs
@@ -54,7 +58,8 @@ Artificial-Class-Lab/
 | **Lab 1** | Python syntax, input/output, data types, strings, lists, conditionals | [Read](labs/Lab1/README.md) | [View](labs/Lab1/manual.md) | [Run](labs/Lab1/README.md#how-to-run) | Complete |
 | **Lab 2** | `while`/`for` loops, `break`/`continue`, functions, classes & objects | [Read](labs/Lab2/README.md) | — | [Run](labs/Lab2/README.md#how-to-run) | Complete |
 | **Lab 3** | Nested loops, data structures, strings, `random`, regex, 2D arrays | [Read](labs/Lab3/README.md) | [View](labs/Lab3/Lab%203.pdf) | [Run](labs/Lab3/README.md#how-to-run) | Complete |
-| **Lab 4** | *To be assigned* | — | — | — | Pending |
+| **Lab 4** | Stacks (LIFO), queues (FIFO), binary search | [Read](labs/Lab4/README.md) | [View](labs/Lab4/Lab%204.pdf) | [Run](labs/Lab4/README.md#how-to-run) | Complete |
+| **Lab 5** | *To be assigned* | — | — | — | Pending |
 
 > **Pattern:** Every new lab folder follows the same structure — `README.md` (explanation), `manual.md` (manual), and numbered `NN_topic.py` scripts.
 
