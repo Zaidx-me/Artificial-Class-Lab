@@ -13,9 +13,10 @@
 
 Lab 4 implements three classic data structures and a search algorithm using
 Python lists: a **stack** (LIFO — last in, first out), a **queue** (FIFO — first
-in, first out), and **binary search** on a sorted array. Each task is an
-independent script that reads its input from the user and demonstrates the core
-operations.
+in, first out), and **binary search** on a sorted array. Each task is written in
+**class and object form** — the data structure is a class, the operations are
+its methods, and the driver code creates an object and calls those methods.
+Every script reads its input from the user and demonstrates the core operations.
 
 ## Files in This Lab
 
@@ -35,11 +36,15 @@ A stack is a "last in, first out" structure — the last item pushed is the
 first one popped.
 
 **Concepts demonstrated:**
-- Using a Python **list** as the underlying storage
-- `append()` to **push** a value onto the stack
-- `stack[-1]` to **peek** at the top element
-- `pop()` to **remove** (pop) the top element
-- Taking the stack size and values from user `input()`
+- A `Stack` **class**; `__init__()` creates the fixed-size array (`self.stack`)
+  and the `top` pointer (instance attributes)
+- `push(x)` — method that increments `self.top`, then assigns `self.stack[self.top] = x`
+  (no `append()`)
+- `peek()` — method returning `self.stack[self.top]`
+- `pop()` — method that saves `self.stack[self.top]`, clears the slot,
+  decrements `self.top`, and returns the saved value (no `pop()`)
+- Creating an object `s = Stack(size)` and calling `s.push(x)`, `s.peek()`,
+  `s.pop()`
 
 **Example flow:**
 ```
@@ -61,9 +66,14 @@ A queue is a "first in, first out" structure — the item that arrived first is
 the first one dequeued.
 
 **Concepts demonstrated:**
-- Using a Python **list** as the underlying storage
-- `append()` to **enqueue** a value at the back
-- `pop(0)` to **dequeue** from the front (FIFO order)
+- A `Queue` **class**; `__init__()` sets up the fixed-size array (`self.queue`)
+  plus the `front` / `rear` pointers (instance attributes)
+- `enqueue(y)` — method that increments `self.rear`, then assigns
+  `self.queue[self.rear] = y` (no `append()`)
+- `dequeue()` — method that reads `self.queue[self.front]`, clears the slot,
+  increments `self.front`, and returns the value (no `pop(0)`)
+- Creating an object `q = Queue(size)` and calling `q.enqueue(y)`,
+  `q.dequeue()`
 - Taking the queue size and values from user `input()`
 
 **Example flow:**
@@ -72,14 +82,17 @@ Enter value for range : 3
 Enter the value to push in queue : 1
 Enter the value to push in queue : 2
 Enter the value to push in queue : 3
-[1, 2, 3]
-1
-[2, 3]
-2
+The queue is :  [1, 2, 3]
+
+The popped element is :  1
+The queue after popping is :  [2, 3]
+
+The popped element is :  2
 ```
 
-**Note:** With a list, dequeuing from the front (`pop(0)`) is O(n) because every
-element shifts left; a `collections.deque` would make it O(1).
+**Note:** With `front`/`rear` pointers the dequeued slots stay in the array but
+are ignored by the pointers. No built-in list methods are used — everything is
+implemented from scratch.
 
 ---
 
@@ -89,12 +102,17 @@ Binary search (half-interval search) finds a target in a **sorted** array in
 logarithmic time by repeatedly halving the search space.
 
 **Concepts demonstrated:**
-- The array is sorted first with `array.sort()` (a precondition of binary search)
+- A `BinarySearch` **class** that wraps the array in `__init__()`
+  (`self.array`)
+- `bubble_sort()` — method that sorts the array **from scratch** with nested
+  swaps (no `array.sort()`)
+- `search(target)` — method that runs binary search on `self.array`
 - `low` / `high` pointers narrow the search range
 - `mid = (low + high) // 2` picks the middle index
 - Comparing the middle value against the target to decide the next half
 - Returning the index when found, or `-1` when the value is absent
-- Taking the target from user `input()`
+- Creating an object `bs = BinarySearch(array)` and calling `bs.bubble_sort()`,
+  `bs.search(target)`
 
 **Example output:**
 ```
