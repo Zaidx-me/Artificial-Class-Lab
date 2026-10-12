@@ -72,11 +72,18 @@ visits nodes level by level, and the search **stops immediately when the goal
 is achieved** — the nodes after `G` are never printed.
 
 **Concepts demonstrated:**
-- The tree stored as a dictionary: each node maps to its list of children
-- The same from-scratch `Queue` class as in `01`
-- BFS enqueues the start node, then for every dequeued node enqueues its
-  children
-- `if node == goal: break` — the early-termination check
+- A `Graph` **class** like in `01` — but the tree uses node *names* instead of
+  indices, so `__init__` creates an empty dictionary `self.adj`
+- `addEdge(v, w)` creates both nodes if they don't exist yet, then adds `w` to
+  `v`'s children (still `list + [w]`, no `append()`)
+- The tree is built in the driver with `g.addEdge(...)` calls — the same way
+  the graph is built in `01`
+- `bfs(s, goal)` — the same from-scratch `Queue` class as in `01`; returns
+  `True` when the goal node is dequeued, `False` when the queue empties
+  without finding it
+- The driver stores that result and prints `Goal ... is found !` or
+  `Goal ... is not in the tree !` accordingly — so it can never claim a goal
+  outside the tree was found
 - No `visited` array is needed here because a tree has no cycles (every node
   is enqueued exactly once)
 

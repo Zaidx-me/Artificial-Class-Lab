@@ -20,40 +20,60 @@ class Queue:
         return self.front > self.rear
 
 
+# graph class using adjacency list representation
+class Graph:
+    def __init__(self):
+        self.adj = {}   # adjacency list of every node
+
+    # add edge v -> w, creates both nodes if they don't exist yet
+    def addEdge(self, v, w):
+        if v not in self.adj:
+            self.adj[v] = []
+        if w not in self.adj:
+            self.adj[w] = []
+        self.adj[v] = self.adj[v] + [w]
+
+    # prints BFS traversal from the start node, True if goal is found
+    def bfs(self, s, goal):
+        q = Queue(len(self.adj))   # queue for BFS, one slot per node
+
+        q.enqueue(s)
+        while not q.empty():
+            node = q.dequeue()
+            print(node, end=" ")
+
+            # stop the search when the goal is achieved
+            if node == goal:
+                return True
+
+            # tree has no cycles so a visited array is not needed
+            for w in self.adj[node]:
+                q.enqueue(w)
+
+        return False   # queue emptied without finding the goal
+
+
 # tree given in the manual, starting node is A and goal node is G
-tree = {
-    "A": ["B", "F", "E"],
-    "B": ["D", "K", "J"],
-    "F": ["G"],
-    "E": ["C", "H", "N"],
-    "D": ["M"],
-    "K": [],
-    "J": [],
-    "G": [],
-    "C": [],
-    "H": [],
-    "N": [],
-    "M": []
-}
+g = Graph()
+g.addEdge("A", "B")
+g.addEdge("A", "F")
+g.addEdge("A", "E")
+g.addEdge("B", "D")
+g.addEdge("B", "K")
+g.addEdge("B", "J")
+g.addEdge("F", "G")
+g.addEdge("E", "C")
+g.addEdge("E", "H")
+g.addEdge("E", "N")
+g.addEdge("D", "M")
 
 start = "A"
-goal = "G"
-
-q = Queue(12)   # one slot per node, every node enters the queue once
-q.enqueue(start)
+goal = "J"
 
 print("Breadth First Search from", start, "until goal", goal, "is found :")
-while not q.empty():
-    node = q.dequeue()
-    print(node, end=" ")
-
-    # stop the search when the goal is achieved
-    if node == goal:
-        break
-
-    # tree has no cycles so a visited array is not needed
-    for child in tree[node]:
-        q.enqueue(child)
-
+found = g.bfs(start, goal)
 print()
-print("Goal", goal, "is found !")
+if found:
+    print("Goal", goal, "is found !")
+else:
+    print("Goal", goal, "is not in the tree !")

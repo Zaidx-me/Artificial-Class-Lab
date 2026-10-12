@@ -12,6 +12,7 @@ class Queue:
         self.queue[self.rear] = x
 
     # remove and return from the front
+
     def dequeue(self):
         x = self.queue[self.front]
         self.queue[self.front] = None

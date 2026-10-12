@@ -19,7 +19,7 @@ class PriorityQueue:
 
         popped = self.items[high]
 
-        # shift the remaining items one place left
+        # shift the items one place left
         for i in range(high, self.count - 1):
             self.items[i] = self.items[i + 1]
 
