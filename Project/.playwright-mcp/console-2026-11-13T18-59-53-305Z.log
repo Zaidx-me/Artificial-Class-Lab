@@ -1,0 +1,33 @@
+[    4106ms] [WARNING] Invalid color passed for widgetBackgroundColor in theme.sidebar: "" @ http://localhost:8541/static/js/index.CAj-7vWz.js:113
+[    4106ms] [WARNING] Invalid color passed for widgetBorderColor in theme.sidebar: "" @ http://localhost:8541/static/js/index.CAj-7vWz.js:113
+[    4107ms] [WARNING] Invalid color passed for skeletonBackgroundColor in theme.sidebar: "" @ http://localhost:8541/static/js/index.CAj-7vWz.js:113
+[    4419ms] [WARNING] Invalid color passed for widgetBackgroundColor in theme.sidebar: "" @ http://localhost:8541/static/js/index.CAj-7vWz.js:113
+[    4420ms] [WARNING] Invalid color passed for widgetBorderColor in theme.sidebar: "" @ http://localhost:8541/static/js/index.CAj-7vWz.js:113
+[    4420ms] [WARNING] Invalid color passed for skeletonBackgroundColor in theme.sidebar: "" @ http://localhost:8541/static/js/index.CAj-7vWz.js:113
+[    5968ms] [WARNING] Invalid color passed for widgetBackgroundColor in theme.sidebar: "" @ http://localhost:8541/static/js/index.CAj-7vWz.js:113
+[    5968ms] [WARNING] Invalid color passed for widgetBorderColor in theme.sidebar: "" @ http://localhost:8541/static/js/index.CAj-7vWz.js:113
+[    5968ms] [WARNING] Invalid color passed for skeletonBackgroundColor in theme.sidebar: "" @ http://localhost:8541/static/js/index.CAj-7vWz.js:113
+[    6001ms] [WARNING] Invalid color passed for widgetBackgroundColor in theme.sidebar: "" @ http://localhost:8541/static/js/index.CAj-7vWz.js:113
+[    6002ms] [WARNING] Invalid color passed for widgetBorderColor in theme.sidebar: "" @ http://localhost:8541/static/js/index.CAj-7vWz.js:113
+[    6002ms] [WARNING] Invalid color passed for skeletonBackgroundColor in theme.sidebar: "" @ http://localhost:8541/static/js/index.CAj-7vWz.js:113
+[    6072ms] [WARNING] Invalid color passed for widgetBackgroundColor in theme.sidebar: "" @ http://localhost:8541/static/js/index.CAj-7vWz.js:113
+[    6072ms] [WARNING] Invalid color passed for widgetBorderColor in theme.sidebar: "" @ http://localhost:8541/static/js/index.CAj-7vWz.js:113
+[    6073ms] [WARNING] Invalid color passed for skeletonBackgroundColor in theme.sidebar: "" @ http://localhost:8541/static/js/index.CAj-7vWz.js:113
+[    6311ms] [WARNING] Invalid color passed for widgetBackgroundColor in theme.sidebar: "" @ http://localhost:8541/static/js/index.CAj-7vWz.js:113
+[    6311ms] [WARNING] Invalid color passed for widgetBorderColor in theme.sidebar: "" @ http://localhost:8541/static/js/index.CAj-7vWz.js:113
+[    6312ms] [WARNING] Invalid color passed for skeletonBackgroundColor in theme.sidebar: "" @ http://localhost:8541/static/js/index.CAj-7vWz.js:113
+[    6638ms] [WARNING] Invalid color passed for widgetBackgroundColor in theme.sidebar: "" @ http://localhost:8541/static/js/index.CAj-7vWz.js:113
+[    6639ms] [WARNING] Invalid color passed for widgetBorderColor in theme.sidebar: "" @ http://localhost:8541/static/js/index.CAj-7vWz.js:113
+[    6639ms] [WARNING] Invalid color passed for skeletonBackgroundColor in theme.sidebar: "" @ http://localhost:8541/static/js/index.CAj-7vWz.js:113
+[    7547ms] [WARNING] Invalid color passed for widgetBackgroundColor in theme.sidebar: "" @ http://localhost:8541/static/js/index.CAj-7vWz.js:113
+[    7548ms] [WARNING] Invalid color passed for widgetBorderColor in theme.sidebar: "" @ http://localhost:8541/static/js/index.CAj-7vWz.js:113
+[    7548ms] [WARNING] Invalid color passed for skeletonBackgroundColor in theme.sidebar: "" @ http://localhost:8541/static/js/index.CAj-7vWz.js:113
+[    8028ms] [WARNING] The input spec uses Vega-Lite v5.20.1, but the current version of Vega-Lite is v6.3.1. @ http://localhost:8541/static/js/index.CAj-7vWz.js:896
+[    8047ms] [WARNING] WARN Scale bindings are currently only supported for scales with unbinned, continuous domains. @ http://localhost:8541/static/js/index.CAj-7vWz.js:708
+[    8070ms] [WARNING] WARN Dropping "fit-x" because spec has discrete width. @ http://localhost:8541/static/js/index.CAj-7vWz.js:708
+[    8124ms] [WARNING] WARN Infinite extent for field "value -- streamlit-generated_start": [Infinity, -Infinity] @ http://localhost:8541/static/js/index.CAj-7vWz.js:696
+[    8125ms] [WARNING] WARN Infinite extent for field "value -- streamlit-generated_end": [Infinity, -Infinity] @ http://localhost:8541/static/js/index.CAj-7vWz.js:696
+[  161785ms] [WARNING] WebSocket onclose @ http://localhost:8541/static/js/index.CAj-7vWz.js:945
+[  161798ms] [WARNING] Invalid color passed for widgetBackgroundColor in theme.sidebar: "" @ http://localhost:8541/static/js/index.CAj-7vWz.js:113
+[  161799ms] [WARNING] Invalid color passed for widgetBorderColor in theme.sidebar: "" @ http://localhost:8541/static/js/index.CAj-7vWz.js:113
+[  161799ms] [WARNING] Invalid color passed for skeletonBackgroundColor in theme.sidebar: "" @ http://localhost:8541/static/js/index.CAj-7vWz.js:113

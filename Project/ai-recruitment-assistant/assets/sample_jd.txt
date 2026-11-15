@@ -1,0 +1,13 @@
+Software Engineer (Backend)
+
+We are looking for a Backend Software Engineer to build and maintain REST APIs for our logistics platform.
+
+Requirements:
+- Strong Python (Django, Flask or FastAPI)
+- REST API design and SQL / PostgreSQL
+- Git and automated testing (pytest)
+- Docker and basic AWS knowledge
+- 2+ years professional experience
+- Bachelor's degree in Computer Science or related field
+
+Nice to have: Redis, CI/CD, Linux, Kubernetes.

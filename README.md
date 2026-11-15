@@ -39,10 +39,18 @@ Artificial-Class-Lab/
 │   │   ├── README.md         ← Explanatory guide → links to manual + all scripts
 │   │   ├── Lab 5.pdf         ← Lab 5 manual
 │   │   └── 01_bfs.py … 03_priority_queue.py
-│   └── Lab6/                 ← Lab 6: Depth First Search
+│   ├── Lab6/                 ← Lab 6: Depth First Search
+│   │   ├── README.md         ← Explanatory guide → links to manual + all scripts
+│   │   ├── Lab 6.pdf         ← Lab 6 manual
+│   │   └── 01_dfs.py
+│   ├── Lab7/                 ← Lab 7: Depth Limited & Iterative Deepening Search
+│   │   ├── README.md         ← Explanatory guide → links to manual + all scripts
+│   │   ├── Lab07.pdf         ← Lab 7 manual
+│   │   └── 01_dls.py … 02_iddfs.py
+│   └── Lab8/                 ← Lab 8: Greedy Best First & A* Search
 │       ├── README.md         ← Explanatory guide → links to manual + all scripts
-│       ├── Lab 6.pdf         ← Lab 6 manual
-│       └── 01_dfs.py
+│       ├── Lab 8.pdf         ← Lab 8 manual
+│       └── 01_greedy_best_first.py … 03_eight_puzzle.py
 │
 ├── assignments/              ← Assignments
 │   └── assignment_01/        ← Assignment 1: Benchmarking 10 AI Coding IDEs
@@ -69,7 +77,9 @@ Artificial-Class-Lab/
 | **Lab 4** | Stacks (LIFO), queues (FIFO), binary search | [Read](labs/Lab4/README.md) | [View](labs/Lab4/Lab%204.pdf) | [Run](labs/Lab4/README.md#how-to-run) | Complete |
 | **Lab 5** | BFS (graphs & trees), early goal stopping, priority queue | [Read](labs/Lab5/README.md) | [View](labs/Lab5/Lab%205.pdf) | [Run](labs/Lab5/README.md#how-to-run) | Complete |
 | **Lab 6** | DFS (graphs & trees), stack-based traversal, goal search | [Read](labs/Lab6/README.md) | [View](labs/Lab6/Lab%206.pdf) | [Run](labs/Lab6/README.md#how-to-run) | Complete |
-| **Lab 7** | *To be assigned* | — | — | — | Pending |
+| **Lab 7** | DLS, IDDFS, depth limits, DFS vs BFS trade-offs | [Read](labs/Lab7/README.md) | [View](labs/Lab7/Lab07.pdf) | [Run](labs/Lab7/README.md#how-to-run) | Complete |
+| **Lab 8** | Greedy best first search, A\* search, heuristics, 8-puzzle | [Read](labs/Lab8/README.md) | [View](labs/Lab8/Lab%208.pdf) | [Run](labs/Lab8/README.md#how-to-run) | Complete |
+| **Lab 9** | *To be assigned* | — | — | — | Pending |
 
 > **Pattern:** Every new lab folder follows the same structure — `README.md` (explanation), `manual.md` (manual), and numbered `NN_topic.py` scripts.
 

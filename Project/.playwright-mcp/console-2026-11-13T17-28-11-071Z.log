@@ -1,0 +1,39 @@
+[    3922ms] [WARNING] Invalid color passed for widgetBackgroundColor in theme.sidebar: "" @ http://localhost:8535/static/js/index.CAj-7vWz.js:113
+[    3922ms] [WARNING] Invalid color passed for widgetBorderColor in theme.sidebar: "" @ http://localhost:8535/static/js/index.CAj-7vWz.js:113
+[    3923ms] [WARNING] Invalid color passed for skeletonBackgroundColor in theme.sidebar: "" @ http://localhost:8535/static/js/index.CAj-7vWz.js:113
+[    4282ms] [WARNING] Invalid color passed for widgetBackgroundColor in theme.sidebar: "" @ http://localhost:8535/static/js/index.CAj-7vWz.js:113
+[    4283ms] [WARNING] Invalid color passed for widgetBorderColor in theme.sidebar: "" @ http://localhost:8535/static/js/index.CAj-7vWz.js:113
+[    4283ms] [WARNING] Invalid color passed for skeletonBackgroundColor in theme.sidebar: "" @ http://localhost:8535/static/js/index.CAj-7vWz.js:113
+[    5602ms] [WARNING] Invalid color passed for widgetBackgroundColor in theme.sidebar: "" @ http://localhost:8535/static/js/index.CAj-7vWz.js:113
+[    5603ms] [WARNING] Invalid color passed for widgetBorderColor in theme.sidebar: "" @ http://localhost:8535/static/js/index.CAj-7vWz.js:113
+[    5603ms] [WARNING] Invalid color passed for skeletonBackgroundColor in theme.sidebar: "" @ http://localhost:8535/static/js/index.CAj-7vWz.js:113
+[    5654ms] [WARNING] Invalid color passed for widgetBackgroundColor in theme.sidebar: "" @ http://localhost:8535/static/js/index.CAj-7vWz.js:113
+[    5654ms] [WARNING] Invalid color passed for widgetBorderColor in theme.sidebar: "" @ http://localhost:8535/static/js/index.CAj-7vWz.js:113
+[    5654ms] [WARNING] Invalid color passed for skeletonBackgroundColor in theme.sidebar: "" @ http://localhost:8535/static/js/index.CAj-7vWz.js:113
+[    5707ms] [WARNING] Invalid color passed for widgetBackgroundColor in theme.sidebar: "" @ http://localhost:8535/static/js/index.CAj-7vWz.js:113
+[    5707ms] [WARNING] Invalid color passed for widgetBorderColor in theme.sidebar: "" @ http://localhost:8535/static/js/index.CAj-7vWz.js:113
+[    5708ms] [WARNING] Invalid color passed for skeletonBackgroundColor in theme.sidebar: "" @ http://localhost:8535/static/js/index.CAj-7vWz.js:113
+[    5863ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: http://localhost:8535/static/media/SourceCodeVF-Upright.ttf.BjWn63N-.woff2 @ http://localhost:8535/:1
+[    5926ms] [WARNING] Invalid color passed for widgetBackgroundColor in theme.sidebar: "" @ http://localhost:8535/static/js/index.CAj-7vWz.js:113
+[    5927ms] [WARNING] Invalid color passed for widgetBorderColor in theme.sidebar: "" @ http://localhost:8535/static/js/index.CAj-7vWz.js:113
+[    5927ms] [WARNING] Invalid color passed for skeletonBackgroundColor in theme.sidebar: "" @ http://localhost:8535/static/js/index.CAj-7vWz.js:113
+[    6084ms] [WARNING] Invalid color passed for widgetBackgroundColor in theme.sidebar: "" @ http://localhost:8535/static/js/index.CAj-7vWz.js:113
+[    6085ms] [WARNING] Invalid color passed for widgetBorderColor in theme.sidebar: "" @ http://localhost:8535/static/js/index.CAj-7vWz.js:113
+[    6085ms] [WARNING] Invalid color passed for skeletonBackgroundColor in theme.sidebar: "" @ http://localhost:8535/static/js/index.CAj-7vWz.js:113
+[    6299ms] [WARNING] Invalid color passed for widgetBackgroundColor in theme.sidebar: "" @ http://localhost:8535/static/js/index.CAj-7vWz.js:113
+[    6300ms] [WARNING] Invalid color passed for widgetBorderColor in theme.sidebar: "" @ http://localhost:8535/static/js/index.CAj-7vWz.js:113
+[    6300ms] [WARNING] Invalid color passed for skeletonBackgroundColor in theme.sidebar: "" @ http://localhost:8535/static/js/index.CAj-7vWz.js:113
+[    6360ms] [WARNING] Invalid color passed for widgetBackgroundColor in theme.sidebar: "" @ http://localhost:8535/static/js/index.CAj-7vWz.js:113
+[    6360ms] [WARNING] Invalid color passed for widgetBorderColor in theme.sidebar: "" @ http://localhost:8535/static/js/index.CAj-7vWz.js:113
+[    6360ms] [WARNING] Invalid color passed for skeletonBackgroundColor in theme.sidebar: "" @ http://localhost:8535/static/js/index.CAj-7vWz.js:113
+[    6439ms] [WARNING] Invalid color passed for widgetBackgroundColor in theme.sidebar: "" @ http://localhost:8535/static/js/index.CAj-7vWz.js:113
+[    6440ms] [WARNING] Invalid color passed for widgetBorderColor in theme.sidebar: "" @ http://localhost:8535/static/js/index.CAj-7vWz.js:113
+[    6440ms] [WARNING] Invalid color passed for skeletonBackgroundColor in theme.sidebar: "" @ http://localhost:8535/static/js/index.CAj-7vWz.js:113
+[    6499ms] [WARNING] Invalid color passed for widgetBackgroundColor in theme.sidebar: "" @ http://localhost:8535/static/js/index.CAj-7vWz.js:113
+[    6499ms] [WARNING] Invalid color passed for widgetBorderColor in theme.sidebar: "" @ http://localhost:8535/static/js/index.CAj-7vWz.js:113
+[    6499ms] [WARNING] Invalid color passed for skeletonBackgroundColor in theme.sidebar: "" @ http://localhost:8535/static/js/index.CAj-7vWz.js:113
+[    6638ms] [WARNING] Invalid color passed for widgetBackgroundColor in theme.sidebar: "" @ http://localhost:8535/static/js/index.CAj-7vWz.js:113
+[    6639ms] [WARNING] Invalid color passed for widgetBorderColor in theme.sidebar: "" @ http://localhost:8535/static/js/index.CAj-7vWz.js:113
+[    6639ms] [WARNING] Invalid color passed for skeletonBackgroundColor in theme.sidebar: "" @ http://localhost:8535/static/js/index.CAj-7vWz.js:113
+[    7191ms] [ERROR] Failed to fetch metrics config: TimeoutError: signal timed out @ http://localhost:8535/static/js/index.CAj-7vWz.js:949
+[    7192ms] [ERROR] Undefined metrics config - deactivating metrics tracking. @ http://localhost:8535/static/js/index.CAj-7vWz.js:949
